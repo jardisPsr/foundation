@@ -1,0 +1,416 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b539ecbd8442dc420e7f61d5882c0fa5",
+    "packages": [
+        {
+            "name": "jardisport/dbconnection",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jardisPort/dbconnection.git",
+                "reference": "703abcf14bf56a2de5af2fb819a74cfda70bde91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jardisPort/dbconnection/zipball/703abcf14bf56a2de5af2fb819a74cfda70bde91",
+                "reference": "703abcf14bf56a2de5af2fb819a74cfda70bde91",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.0.4",
+                "squizlabs/php_codesniffer": "^3.11.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JardisPort\\DbConnection\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jardis Core Development",
+                    "email": "jardisCore@headgent.dev"
+                }
+            ],
+            "description": "This package provides dbconnection interfaces for a domain driven design approach",
+            "homepage": "https://github.com/jardisPort/dbconnection",
+            "keywords": [
+                "Connection",
+                "Headgent",
+                "JardisPort",
+                "database",
+                "ddd",
+                "interfaces"
+            ],
+            "support": {
+                "email": "jardisCore@headgent.dev",
+                "issues": "https://github.com/jardisPort/dbconnection/issues",
+                "source": "https://github.com/jardisPort/dbconnection/tree/v1.0.0"
+            },
+            "time": "2026-02-25T07:37:27+00:00"
+        },
+        {
+            "name": "jardisport/factory",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jardisPort/factory.git",
+                "reference": "a4e4f0f751ec589a6d255fbab46733ad91c3c17f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jardisPort/factory/zipball/a4e4f0f751ec589a6d255fbab46733ad91c3c17f",
+                "reference": "a4e4f0f751ec589a6d255fbab46733ad91c3c17f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.0.4",
+                "squizlabs/php_codesniffer": "^3.11.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JardisPort\\Factory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jardis Core Development",
+                    "email": "jardisCore@headgent.dev"
+                }
+            ],
+            "description": "This package provides a factory interfaces for a domain driven design approach",
+            "homepage": "https://github.com/jardisPort/factory",
+            "keywords": [
+                "Headgent",
+                "JardisPort",
+                "ddd",
+                "factory",
+                "interfaces"
+            ],
+            "support": {
+                "email": "jardisCore@headgent.dev",
+                "issues": "https://github.com/jardisPort/factory/issues",
+                "source": "https://github.com/jardisPort/factory/tree/v1.0.0"
+            },
+            "time": "2026-02-25T07:37:28+00:00"
+        },
+        {
+            "name": "jardisport/messaging",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jardisPort/messaging.git",
+                "reference": "4c3c6f684fa9d908c291e14779c3df81a706d525"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jardisPort/messaging/zipball/4c3c6f684fa9d908c291e14779c3df81a706d525",
+                "reference": "4c3c6f684fa9d908c291e14779c3df81a706d525",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.0.4",
+                "squizlabs/php_codesniffer": "^3.11.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JardisPort\\Messaging\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jardis Core Development",
+                    "email": "jardisCore@headgent.dev"
+                }
+            ],
+            "description": "This package provides async messaging interfaces for a domain driven design approach",
+            "homepage": "https://github.com/jardisPort/messaging",
+            "keywords": [
+                "Headgent",
+                "JardisPort",
+                "ddd",
+                "interfaces",
+                "messaging"
+            ],
+            "support": {
+                "email": "jardisCore@headgent.dev",
+                "issues": "https://github.com/jardisPort/messaging/issues",
+                "source": "https://github.com/jardisPort/messaging/tree/v1.0.0"
+            },
+            "time": "2026-02-25T07:37:28+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
+            },
+            "time": "2024-09-11T13:17:53+00:00"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+            },
+            "time": "2021-10-29T13:26:27+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpstan/phpstan",
+            "version": "2.1.40",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
+                "reference": "9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-02-23T15:04:35+00:00"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "3.13.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
+                "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
+                "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.3.4"
+            },
+            "bin": [
+                "bin/phpcbf",
+                "bin/phpcs"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "Former lead"
+                },
+                {
+                    "name": "Juliette Reinders Folmer",
+                    "role": "Current lead"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/PHPCSStandards/PHP_CodeSniffer/graphs/contributors"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "https://github.com/PHPCSStandards/PHP_CodeSniffer",
+            "keywords": [
+                "phpcs",
+                "standards",
+                "static analysis"
+            ],
+            "support": {
+                "issues": "https://github.com/PHPCSStandards/PHP_CodeSniffer/issues",
+                "security": "https://github.com/PHPCSStandards/PHP_CodeSniffer/security/policy",
+                "source": "https://github.com/PHPCSStandards/PHP_CodeSniffer",
+                "wiki": "https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/PHPCSStandards",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/jrfnl",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/php_codesniffer",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/phpcsstandards",
+                    "type": "thanks_dev"
+                }
+            ],
+            "time": "2025-11-04T16:30:35+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.2"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
